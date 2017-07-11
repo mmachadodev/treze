@@ -147,7 +147,7 @@ $(document).ready(function() {
         // if (name.length > 0)
         $.ajax({
           type: "POST",
-          url: "http://farolestudio-com.umbler.net/treze_mail.php",
+          url: "//farolestudio-com.umbler.net/treze_mail.php",
           data: $("#contact-form-data").serialize(),
           success: function() {
             console.log("SUCESSO");
