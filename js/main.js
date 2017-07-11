@@ -136,8 +136,29 @@ $(document).ready(function() {
             scrollDistance: 2000,
             scrollSpeed: 1200,
           });
-      }())
+      }());
  
-
+    (function(){
+      // Contact form ajax
+      $("#send-form").click(function() {
+        var name = $("input[name='name']").val();
+        var email = $("input[name='email']").val();
+        var message = $("input[name='message']").val();
+        // if (name.length > 0)
+        $.ajax({
+          type: "POST",
+          url: "http://farolestudio-com.umbler.net/treze_mail.php",
+          data: $("#contact-form-data").serialize(),
+          success: function() {
+            console.log("SUCESSO");
+          },
+          error: function(error) {
+            console.log("FAIL: ");
+            console.log(error);
+          }
+        });
+      });
+    }());
+     
 
 });

@@ -25,7 +25,7 @@
         } else {
             $self = $('<a/>', {
                 id: o.scrollName,
-                href: '#top'
+                href: '#home'
             });
         }
 
@@ -134,7 +134,7 @@
         animationSpeed: 200,         // Animation in speed (ms)
         scrollTrigger: false,        // Set a custom triggering element. Can be an HTML string or jQuery object
         scrollTarget: false,         // Set a custom target element for scrolling to. Can be element or number
-        scrollText: 'Scroll to top', // Text for element, can contain HTML
+        scrollText: 'Ir para Início', // Text for element, can contain HTML
         scrollTitle: false,          // Set a custom <a> title if required. Defaults to scrollText
         scrollImg: false,            // Set true to use image
         activeOverlay: false,        // Set CSS color to display scrollUp active point, e.g '#00FFFF'

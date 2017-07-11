@@ -867,7 +867,8 @@ header .navbar {
   transform: scale(1.2);
 }
 footer {
-  background: #202322;
+  /* background: #202322; */
+  background: #332532;
   padding: 42px 0 65px 0;
   text-align: center;
 }
