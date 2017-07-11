@@ -441,7 +441,8 @@ header .navbar {
   bottom: 23px;
   right: 38px;
   /* background: rgba(128, 214, 163, 0.85); */
-  background: rgba(243, 148, 83, 0.70);
+  /* background: rgba(243, 148, 83, 0.70); */
+  background: rgba(51, 37, 50, 0.73);
   transition: 0.3s;
   text-align: center;
   opacity: 0;
